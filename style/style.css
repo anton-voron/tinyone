@@ -36,10 +36,6 @@ a:hover{
 	overflow: hidden;
 }
 
-.main-header {
-	background-color: #fcdb00;
-	padding-top: 60px;
-}
 
 .wrapper-central-col {
 	display: flex;
@@ -53,6 +49,12 @@ a:hover{
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+}
+
+.main-header {
+	background-color: #fcdb00;
+	padding-top: 60px;
+	margin-bottom: 110px;
 }
 
 .navbar {
@@ -149,7 +151,8 @@ a:hover{
 	border-top: 44px solid #ffffff;
 	border-bottom: 44px solid #ffffff;
 	border-radius: 17px;
-
+	
+	margin-bottom: 100px;
 }
 
 .label-ipad {
@@ -174,4 +177,42 @@ a:hover{
 	background-image: url('../img/fingerprint-yellow.png');
 	background-repeat: no-repeat;
 	background-position: 0 0;
+}
+
+.ul-style {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.feature-item {
+	margin-bottom: 85px;
+}
+
+.feature-title {
+	font-size: 22px;
+	line-height: 24px;
+	font-weight: normal;
+
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.feature-img {
+	position: absolute;
+	top: 0px;
+	left: -50px;
+}
+
+.feature-text {
+	color: #898989;
+}
+
+.descr-anotation {
+	text-align: center;
+	margin-bottom: 90px;
+
+	font-size: 20px;
+	line-height: 24px;
+	color: #313841;
 }
