@@ -42,6 +42,7 @@ a:hover{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	text-align: center;
 }
 
 .wrapper-central-row {
@@ -49,6 +50,7 @@ a:hover{
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	text-align: center;
 }
 
 .main-header {
@@ -215,4 +217,66 @@ a:hover{
 	font-size: 20px;
 	line-height: 24px;
 	color: #313841;
+}
+
+footer {
+	background-color: #010101;
+	color: #898989;
+}
+
+.contacts {
+	padding-top: 100px;
+}
+
+.form-title {
+	font-size: 32px;
+	color: #fcdb00;
+	margin-bottom: 20px;
+}
+
+.contacts-text {
+	margin-bottom: 45px;
+}
+
+.form-email {
+	margin-bottom: 80px;
+}
+
+.form-control {
+	width: 580px;
+}
+
+.btn-submit {
+	margin-left: 20px;
+	width: 120px;
+	background-color: #fcdb00;
+
+	color: #010101;
+	font-weight: bold;
+
+	border: none;
+	border-radius: 3px;
+}
+.btn-submit:hover {
+	background-color: #ab9c3a;
+}
+
+.links-group {
+	justify-content: space-between;
+	color: #ffffff;
+}
+.links-group a {
+	color: #ffffff;
+}
+
+.ul-social {
+	margin-bottom: 130px;
+}
+
+.social-networks-item {
+	margin-right: 30px;
+}
+
+.social-networks-item:hover {
+	background-color: #ab9c3a;
 }
