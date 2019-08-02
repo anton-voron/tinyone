@@ -1,0 +1,177 @@
+body {
+	margin: 0;
+	padding: 0;
+
+	font-family: "PT Sans", Arial, sans-serif;
+	font-size: 16px;
+	line-height: 25px;
+	font-weight: normal;
+	color: #010101;
+}
+
+
+a {
+	text-decoration: none;
+	color: #010101;
+}
+
+a:hover{
+	text-decoration:  none;
+	color: #010101;
+	font-weight: bold; 
+}
+
+.visually-hidden {
+	position: absolute;
+
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+.main-header {
+	background-color: #fcdb00;
+	padding-top: 60px;
+}
+
+.wrapper-central-col {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.wrapper-central-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.navbar {
+	margin-bottom: 70px;
+}
+
+.navbar-light .navbar-brand {
+    color: rgba(1,1,1,1);
+}
+
+.company-label {
+	font-size: 30px;
+	line-height: 32px;
+	font-weight: bold;
+
+	position: relative;
+}
+
+.company-label::before {
+	content: ""; 
+
+	position: absolute;
+	top: 0%;
+	left: -56px;
+	width: 46px;
+	height: 46px;
+
+	background-image: url('../img/fingerprint.png');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+.navbar-font {
+	font-size: 22px;
+	line-height: 25px; 
+	justify-content: space-between;
+	margin-left: auto;
+	color: rgba(0, 0, 0, 0.5);
+	color: #010101;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	margin-left: 60px;
+    color: rgba(1,1,1,1);
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(1,1,1,1);
+    color: #ab9c3a;
+}
+
+.title {
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+
+.slogan {
+	font-size: 20px;
+	line-height: 24px;
+	color: 313841;
+	margin-bottom: 25px;
+}
+
+.descr-text {
+	color: 555555;
+}
+
+.inline-flex {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+}
+.inline-flex li {
+	padding: 0;
+	margin: 0;
+	margin-top: 45px;
+	margin-right: 35px;
+}
+
+.idap {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	height: 470px;
+	width: 317px;
+	background-color: #000000;
+
+	border: 14px solid #ffffff;
+	border-top: 44px solid #ffffff;
+	border-bottom: 44px solid #ffffff;
+	border-radius: 17px;
+
+}
+
+.label-ipad {
+	font-size: 30px;
+	line-height: 32px;
+	font-weight: bold;
+	color: #fcdb00;
+
+	position: relative;
+	margin-left: 35px;
+}
+
+.label-ipad::before {
+	content: ""; 
+
+	position: absolute;
+	top: 0%;
+	left: -56px;
+	width: 46px;
+	height: 46px;
+
+	background-image: url('../img/fingerprint-yellow.png');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
