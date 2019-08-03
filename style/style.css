@@ -234,8 +234,12 @@ a:hover{
 	border-top: 44px solid #ffffff;
 	border-bottom: 44px solid #ffffff;
 	border-radius: 17px;
-	
-	margin-bottom: 100px;
+}
+
+@media (max-width: 992px) {
+  .ipad-section {
+    display: none;
+  }
 }
 
 .label-ipad {
@@ -268,6 +272,31 @@ a:hover{
 	list-style: none;
 }
 
+.slider-flipper {
+	margin-top: 45px;
+	margin-bottom: 50px;
+}
+
+.button-slide {
+	margin-right: 10px;
+}
+
+.button-slide::before {
+	content: "";
+    display: block;
+    position: relative;
+    top: -1px;
+    left: -1px;
+    margin-right: 5px;
+    background: #feed80;
+    width: 14px; height: 14px; 
+    border-radius: 14px; 
+}
+.button-slide:active::before,
+.button-slide:hover::before,
+.button-slide:focus::before {
+	background: #ffffff;
+}
 .feature-item {
 	margin-bottom: 85px;
 }

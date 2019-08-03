@@ -32,7 +32,7 @@
 			</nav>
 			<section class="row  wrapper-central-row">
 				<h2 class="visually-hidden">Slideer</h2>
-				<div  class="col-sm-6">
+				<div  class="col-lg-6 col-md-12">
 					<h2 class="title">Inspire your inspiration</h2>
 					<p class="slogan">Simple to use for your app, products <br> 
 									  showcase and your inspiration</p>
@@ -57,15 +57,15 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-6 wrapper-central-col">
+				<div class="col-sm-6 wrapper-central-col ipad-section">
 					<div class="idap">
 						<span class="label-ipad">tinyone</span>
 					</div>
 				</div>
-				<ul class="ul-style d-flex">
-					<li><input type="radio" name="slide-btn" id="slide-1"></li>
-					<li><input type="radio" name="slide-btn" id="slide-2"></li>
-					<li><input type="radio" name="slide-btn" id="slide-3"></li>
+				<ul class="ul-style d-flex slider-flipper">
+					<li><input type="radio" name="slide-btn" id="slide-1" class="button-slide" aria-label="First slide"></li>
+					<li><input type="radio" name="slide-btn" id="slide-2" class="button-slide" aria-label="Secound slide"></li>
+					<li><input type="radio" name="slide-btn" id="slide-3" class="button-slide" aria-label="Third slide"></li>
 				</ul>	
 			</section>
 		</div>
@@ -127,9 +127,9 @@
 				<p class="contacts-text">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget <br>tellus tristique bibendum. Donec rutrum sed sem quis venenatis.
 				</p>
-				<form class="form-email d-flex">
+				<form method="post" class="form-email d-flex" id="formElem">
 				  	<input type="text" class="form-control" placeholder="Enter your email to update" aria-label="Email" aria-describedby="basic-addon1" id="email">
-				  	<button class="btn-submit">SUBMIT</button>
+				  	<button class="btn-submit" type="submit">SUBMIT</button>
 				</form>
 			</section>
 			<section class="social-networks wrapper-central-col">
@@ -141,7 +141,7 @@
 				</ul>
 			</section>
 			<section class="row links-group">
-				<ul class="ul-style col-4">
+				<ul class="ul-style col-lg-4 col-sm-12 mt-5">
 					<li class="item-link">
 						<p>
 							HALOVIETNAM LTD <br>
@@ -154,23 +154,23 @@
 						+844 35149182
 					</li>
 				</ul>
-				<ul class="ul-style col-2">
+				<ul class="ul-style col-lg-2 col-sm-6 mt-4">
 					<li class="item-link"><a href="#">Examples</a></li>
 					<li class="item-link"><a href="#">Shop</a></li>
 					<li class="item-link"><a href="#">License</a></li>
 				</ul>
-				<ul class="ul-style col-2">
+				<ul class="ul-style col-lg-2 col-sm-6 mt-4">
 					<li class="item-link"><a href="#">Contact</a></li>
 					<li class="item-link"><a href="#">About</a></li>
 					<li class="item-link"><a href="#">Privact</a></li>
 					<li class="item-link"><a href="#">Terms</a></li>
 				</ul>
-				<ul class="ul-style col-2">
+				<ul class="ul-style col-lg-2 col-sm-6 mt-4">
 					<li class="item-link"><a href="#">Download</a></li>
 					<li class="item-link"><a href="#">Support</a></li>
 					<li class="item-link"><a href="#">Documents</a></li>
 				</ul>
-				<ul class="ul-style col-2">
+				<ul class="ul-style col-lg-2 col-sm-6 mt-4">
 					<li class="item-link"><a href="#">Media</a></li>
 					<li class="item-link"><a href="#">Bloag</a></li>
 					<li class="item-link"><a href="#">Forums</a></li>
@@ -183,5 +183,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/index.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
 </html>
