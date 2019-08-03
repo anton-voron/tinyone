@@ -42,7 +42,6 @@ a:hover{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	text-align: center;
 }
 
 .wrapper-central-row {
@@ -50,7 +49,6 @@ a:hover{
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	text-align: center;
 }
 
 .main-header {
@@ -136,9 +134,92 @@ a:hover{
 .inline-flex li {
 	padding: 0;
 	margin: 0;
-	margin-top: 45px;
 	margin-right: 35px;
 }
+
+.content-list {
+	margin-top: 45px;
+	display: none;
+}
+
+.button-yellow {
+	width: 186px;
+	height: 50px;
+
+	position: relative;
+
+	background-color: transparent;
+	border: 2px solid #000000;
+	border-radius: 5px;
+	padding-left: 20px;
+	text-align: left;
+
+}
+
+.button-yellow:hover {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.button-yellow::after {
+	content: ""; 
+
+	position: absolute;
+	left: 130px;
+	width: 30px;
+	height: 20px;
+	top: 50%;
+	top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+   
+
+	background-image: url('../img/fa-cloud-download.png');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+.button-black {
+	width: 186px;
+	height: 50px;
+
+	position: relative;
+
+	background-color: #000000;
+	border: 2px solid #000000;
+	border-radius: 5px;
+	padding-left: 20px;
+	text-align: left;
+
+	color: #ffffff;
+}
+
+.button-black:hover {
+	background-color: #ffffff;
+	border: 2px solid #ffffff;
+	color: #000000;
+}
+
+.button-black::after {
+	content: ""; 
+
+	position: absolute;
+	left: 130px;
+	width: 30px;
+	height: 20px;
+	top: 50%;
+	top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+   
+
+	background-image: url('../img/fa-cloud-download-white.png');
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
 
 .idap {
 	display: flex;
@@ -236,10 +317,12 @@ footer {
 
 .contacts-text {
 	margin-bottom: 45px;
+	text-align: center;
 }
 
 .form-email {
 	margin-bottom: 80px;
+	position: relative;
 }
 
 .form-control {
@@ -279,4 +362,19 @@ footer {
 
 .social-networks-item:hover {
 	background-color: #ab9c3a;
+}
+
+.show {
+	display: block;
+}
+
+.warning {
+	color: #e1e1e1;
+	display: block;
+	position: absolute;
+	top: 120%;
+	left: 50%;
+	-webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
 }
